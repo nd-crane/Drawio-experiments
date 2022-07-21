@@ -1,0 +1,82 @@
+ @prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+
+prov: a owl:Ontology ;
+    dc:creator "Chandler Cunningham" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "Event Core Pattern" ;
+    owl:versionInfo "0.0.1" .
+
+<httpmoo:isDescribedBy> a owl:ObjectProperty ;
+    rdfs:label "is described by" ;
+    rdfs:domain <httpmoo:Place> ;
+    rdfs:range <httpmoo:InformationObject> .
+
+<httpmoo:isPerformedBy> a owl:ObjectProperty ;
+    rdfs:label "is performed by" ;
+    rdfs:domain <httpmoo:AgentRole> ;
+    rdfs:range <httpmoo:Agent> ;
+    owl:inverseOf <httpmoo:performsAgentRole> .
+
+<httpmoo:occursAtPlace> a owl:ObjectProperty ;
+    rdfs:label "occurs at place" ;
+    rdfs:domain <httpmoo:Event> ;
+    rdfs:range <httpmoo:Place> .
+
+<httpmoo:occursAtTime> a owl:ObjectProperty ;
+    rdfs:label "occurs at time" ;
+    rdfs:domain <httpmoo:Event> ;
+    rdfs:range <httpmoo:TimeEntity> .
+
+<httpmoo:providesRole> a owl:ObjectProperty ;
+    rdfs:label "provides role" ;
+    rdfs:domain <httpmoo:Event> ;
+    rdfs:range <httpmoo:ParticipantRole> .
+
+geosparql:SpatialObject a owl:Class ;
+    rdfs:label "Spatial Object" .
+
+time:TemporalEntity a owl:Class ;
+    rdfs:label "Temporal Entity" .
+
+prov:Agent a owl:Class ;
+    rdfs:label "Agent" .
+
+prov:InstantaneousEvent a owl:Class ;
+    rdfs:label "Instantaneous Event" .
+
+<httpmoo:InformationObject> a owl:Class ;
+    rdfs:label "Information Object" .
+
+<httpmoo:TimeEntity> a owl:Class ;
+    rdfs:label "Time Entity" ;
+    rdfs:subClassOf time:TemporalEntity .
+
+<httpmoo:performsAgentRole> a owl:ObjectProperty ;
+    rdfs:label "performs agent role" ;
+    rdfs:domain <httpmoo:Agent> ;
+    rdfs:range <httpmoo:AgentRole> .
+
+<httpmoo:Agent> a owl:Class ;
+    rdfs:label "Agent" ;
+    rdfs:subClassOf prov:Agent .
+
+<httpmoo:AgentRole> a owl:Class ;
+    rdfs:label "Agent Role" ;
+    rdfs:subClassOf <httpmoo:ParticipantRole> .
+
+<httpmoo:ParticipantRole> a owl:Class ;
+    rdfs:label "Participant Role" .
+
+<httpmoo:Place> a owl:Class ;
+    rdfs:label "Place" ;
+    rdfs:subClassOf geosparql:SpatialObject .
+
+<httpmoo:Event> a owl:Class ;
+    rdfs:label "Event" ;
+    rdfs:subClassOf prov:InstantaneousEvent .
+
