@@ -1,0 +1,23 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix modl: <http://www.owl-ontologies.com/modl#> .
+@prefix owl: <http://www.owl-ontologies.com/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+modl: a owl:Ontology ;
+    dc:description "Ontology code created by Chowlk" .
+
+modl:hasType a owl:ObjectProperty ;
+    rdfs:label "has type" ;
+    rdfs:domain owl:Thing ;
+    rdfs:range modl:Type .
+
+owl:Thing a owl:Class ;
+    rdfs:label "Thing" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom modl:Type ;
+            owl:onProperty modl:hasType ] .
+
+modl:Type a owl:Class ;
+    rdfs:label "Type" .
+
+
