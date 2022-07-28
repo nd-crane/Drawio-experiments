@@ -1,0 +1,34 @@
+ @prefix base: <https://archive.org/services/purl/domain/modular_ontology_design_library/bag> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix modl: <https://purl.prod.archive.org/purl/modular_ontology_design_library> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+base: a owl:Ontology ;
+    dc:creator "TAI KG+NLP" ;
+    dc:description "Ontology code created by Chowlk" ;
+    dc:title "Aggregation/Bag/Collection Pattern" ;
+    owl:versionInfo "0.0.1" .
+
+modl:Bag a owl:Class ;
+    rdfs:label "Bag" ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:allValuesFrom modl:BagItem ;
+            owl:onProperty modl:itemOf ],
+        modl:Collection .
+
+modl:Collection a owl:Class ;
+    rdfs:label "Collection" .
+
+modl:PoMember a owl:ObjectProperty ;
+    rdfs:label "po member" .
+
+modl:itemOf a owl:ObjectProperty ;
+    rdfs:label "item of" ;
+    rdfs:domain modl:Bag ;
+    rdfs:range modl:BagItem ;
+    rdfs:subPropertyOf modl:PoMember .
+
+modl:BagItem a owl:Class ;
+    rdfs:label "Bag Item" .
+
