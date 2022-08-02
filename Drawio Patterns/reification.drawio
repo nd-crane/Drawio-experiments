@@ -1,73 +1,87 @@
 <mxfile host="65bd71144e">
     <diagram id="ob6G64-pZK0G0_Q5zdzx" name="Page-1">
-        <mxGraphModel dx="1218" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1943" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="&lt;div&gt;&lt;div&gt;&lt;b&gt;base&lt;/b&gt;:&amp;nbsp;&amp;nbsp;https://archive.org/services/purl/domain/modular_ontology_design_library/reification#&lt;/div&gt;&lt;div&gt;&lt;b&gt;moo:&lt;/b&gt;&amp;nbsp;https://w3id.org/moo/ont/moo&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+                <mxCell id="2" value="&lt;div&gt;&lt;div&gt;&lt;b&gt;base&lt;/b&gt;:&amp;nbsp;&amp;nbsp;https://archive.org/services/purl/domain/modular_ontology_design_library/reification#&lt;/div&gt;&lt;div&gt;&lt;b&gt;moo:&lt;/b&gt;&amp;nbsp;https://w3id.org/moo/ont/moo&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
                     <mxGeometry x="60" y="910" width="290" height="100" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="&lt;div&gt;&lt;b&gt;dc:creator:&lt;/b&gt;&amp;nbsp;Chandler Cunningham&lt;/div&gt;&lt;div&gt;&lt;b&gt;owl:versionInfo:&lt;/b&gt;&amp;nbsp;0.0.1&lt;/div&gt;&lt;div&gt;&lt;b&gt;dc:title:&lt;/b&gt;&amp;nbsp;Property Reification Pattern&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;size=0.23333333333333334;" vertex="1" parent="1">
+                <mxCell id="3" value="&lt;div&gt;&lt;b&gt;dc:creator:&lt;/b&gt;&amp;nbsp;Chandler Cunningham&lt;/div&gt;&lt;div&gt;&lt;b&gt;owl:versionInfo:&lt;/b&gt;&amp;nbsp;0.0.1&lt;/div&gt;&lt;div&gt;&lt;b&gt;dc:title:&lt;/b&gt;&amp;nbsp;Property Reification Pattern&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;labelBackgroundColor=#ffffff;strokeColor=#000000;fontSize=12;fontColor=#000000;size=0.23333333333333334;" parent="1" vertex="1">
                     <mxGeometry x="60" y="810" width="253" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="modl:Context" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" vertex="1" parent="1">
+                <mxCell id="8" value="ns:Context" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" parent="1" vertex="1">
                     <mxGeometry x="400" y="755" width="100" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endSize=8;arcSize=0;" edge="1" source="11" target="8" parent="1">
-                    <mxGeometry width="50" height="50" relative="1" as="geometry">
-                        <mxPoint x="375" y="670" as="sourcePoint"/>
-                        <mxPoint x="560" y="835" as="targetPoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="10" value="&lt;div&gt;&lt;div&gt;(F)(some)&lt;/div&gt;modl:hasContext&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="9">
-                    <mxGeometry x="-0.1269" relative="1" as="geometry">
-                        <mxPoint as="offset"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="11" value="modl:ReifiedProperty" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" vertex="1" parent="1">
+                <mxCell id="11" value="ns:ReifiedProperty" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" parent="1" vertex="1">
                     <mxGeometry x="390" y="630" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="owl:Thing" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" vertex="1" parent="1">
+                <mxCell id="12" value="owl:Thing" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" parent="1" vertex="1">
                     <mxGeometry x="537" y="430" width="100" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="owl:Thing" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" vertex="1" parent="1">
+                <mxCell id="13" value="owl:Thing" style="rounded=0;whiteSpace=wrap;html=1;snapToPoint=1;points=[[0.1,0],[0.2,0],[0.3,0],[0.4,0],[0.5,0],[0.6,0],[0.7,0],[0.8,0],[0.9,0],[0,0.1],[0,0.3],[0,0.5],[0,0.7],[0,0.9],[0.1,1],[0.2,1],[0.3,1],[0.4,1],[0.5,1],[0.6,1],[0.7,1],[0.8,1],[0.9,1],[1,0.1],[1,0.3],[1,0.5],[1,0.7],[1,0.9]];" parent="1" vertex="1">
                     <mxGeometry x="263" y="430" width="100" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=8;dashed=1;arcSize=0;" edge="1" source="13" target="12" parent="1">
+                <mxCell id="14" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endSize=8;dashed=1;arcSize=0;" parent="1" source="13" target="12" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="243" y="548.3299999999999" as="sourcePoint"/>
                         <mxPoint x="455.0000000000002" y="548.3299999999999" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="15" value="&lt;div&gt;ns:objectProperty&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="14">
+                <mxCell id="15" value="&lt;div&gt;ns:propertyToBeReified&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="14" vertex="1" connectable="0">
                     <mxGeometry x="-0.1912" y="-1" relative="1" as="geometry">
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="18" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=8;arcSize=0;" edge="1" source="11" target="12" parent="1">
+                <mxCell id="18" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endSize=8;arcSize=0;" parent="1" source="11" target="12" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="350" y="550" as="sourcePoint"/>
                         <mxPoint x="524" y="550" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="&lt;div&gt;modl:ReifiedProperty2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="18">
+                <mxCell id="19" value="&lt;div&gt;ns:ReifiedProperty2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="18" vertex="1" connectable="0">
                     <mxGeometry x="-0.1269" relative="1" as="geometry">
                         <mxPoint x="4.17" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="20" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.1;entryDx=0;entryDy=0;endSize=8;arcSize=0;" edge="1" parent="1" source="13" target="11">
+                <mxCell id="20" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.1;entryDx=0;entryDy=0;endSize=8;arcSize=0;" parent="1" source="13" target="11" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="360" y="560" as="sourcePoint"/>
                         <mxPoint x="534" y="560" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="21" value="&lt;div&gt;modl:ReifiedProperty1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="20">
+                <mxCell id="21" value="&lt;div&gt;ns:ReifiedProperty1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="20" vertex="1" connectable="0">
                     <mxGeometry x="-0.1269" relative="1" as="geometry">
                         <mxPoint x="4.17" as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="22" value="broken as a bone" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-                    <mxGeometry x="230" y="380" width="110" height="20" as="geometry"/>
+                <mxCell id="22" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.9;exitDx=0;exitDy=0;entryX=1;entryY=0.1;entryDx=0;entryDy=0;endSize=8;arcSize=0;" edge="1" parent="1" source="11" target="8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="537" y="660" as="sourcePoint"/>
+                        <mxPoint x="614" y="833" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="520" y="710"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="&lt;div&gt;ns:(some) hasContext&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="22">
+                    <mxGeometry x="-0.1269" relative="1" as="geometry">
+                        <mxPoint x="4.17" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.1;entryDx=0;entryDy=0;endSize=8;arcSize=0;" edge="1" parent="1" source="11" target="8">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="520" y="667" as="sourcePoint"/>
+                        <mxPoint x="510" y="768" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="380" y="710"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="&lt;div&gt;ns:(F) hasContext&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="24">
+                    <mxGeometry x="-0.1269" relative="1" as="geometry">
+                        <mxPoint x="4.17" as="offset"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
