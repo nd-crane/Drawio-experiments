@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="ob6G64-pZK0G0_Q5zdzx" name="Page-1">
-        <mxGraphModel dx="392" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="723" dy="612" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -33,7 +33,7 @@
                         <mxPoint x="524" y="550" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="19" value="&lt;div&gt;ns:ReifiedProperty2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="18" vertex="1" connectable="0">
+                <mxCell id="19" value="&lt;div&gt;ns:reifiedProperty2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="18" vertex="1" connectable="0">
                     <mxGeometry x="-0.1269" relative="1" as="geometry">
                         <mxPoint x="4.17" as="offset"/>
                     </mxGeometry>
@@ -44,7 +44,7 @@
                         <mxPoint x="534" y="560" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="21" value="&lt;div&gt;ns:ReifiedProperty1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="20" vertex="1" connectable="0">
+                <mxCell id="21" value="&lt;div&gt;ns:reifiedProperty1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" parent="20" vertex="1" connectable="0">
                     <mxGeometry x="-0.1269" relative="1" as="geometry">
                         <mxPoint x="4.17" as="offset"/>
                     </mxGeometry>
